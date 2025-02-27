@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #DEDBDB;
+    background-color: white;
+}
+
+@media only screen and (max-width:500px) {
+    header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+    }
+
+    .logoms {
+        width: 70px;
+    }
+
+    .ikta {
+        width: 25px;
+        margin-left: 220px;
+        margin-top: -20px;
+        display: flex;
+    }
+
+    .solo {
+        font-size: 20px;
+        display: flex;
+        margin-top: -25px;
+        margin-left: 250px;
+    }
+    .kirish{
+        width: 250px;
+        height: 320px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .mors{
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .off{
+        font-size: 10px;
+        margin-left: 130px;
+        margin-top: -15px;
+        font-weight: 700;
+    }
+    .chiqish{
+        width: 15px;
+        margin-left: 210px;
+        margin-top: -12px;
+        display: flex;
+    }
+    h1{
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .otabola{
+        margin-top: 15px;
+        width: 200px;
+        height: 25px;
+        margin-left: 25px;
+    }
+    .oquv{
+        font-size: 10px;
+    }
+    .ona{
+        font-size: 10px;
+    }
+    .more{
+        font-size: 10px;
+        width: 200px;
+        height: 25px;
+        margin-left: 25px;
+        margin-top: 7px;
+    }
+    .pass{
+        font-size: 10px;
+        width: 200px;
+        height: 25px;
+        margin-left: 25px;
+        margin-top: 7px;
+    }
+    .qr{
+        font-size: 10px;
+        width: 200px;
+        height: 25px;
+        margin-left: 80px;
+        display: flex;
+        margin-top: 7px;
+    }
+    button{
+        font-size: 10px;
+        width: 70px;
+        height: 30px;
+        margin-left: 155px;
+        margin-top: 7px;
+    }
+}
+
+.logoms {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.solo {
+    color: #424242;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.kirish {
+
+    border: 2px solid #DEDBDB;
+    border-radius: 40px;
+    background-color: white;
+}
+body {
+    background-color: #75757530;
+}
+
+.off {
+    color: #F0400F;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #0E0D5D;
+}
+
+.otabola {
+    background-color: #75757530;
+    display: flex;
+    gap: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.oquv {
+    color: #757575;
+    font-family: sans-serif;
+    transition: 300ms ease;
+}
+
+.oquv:active {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    color: black;
+}
+
+.oquv:hover {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    color: black;
+}
+
+.ona:active {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    color: black;
+}
+
+.ona:hover {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms ease;
+    color: black;
+}
+
+.ona {
+    color: #757575;
+    font-family: sans-serif;
+    transition: 300ms ease;
+}
+
+.more {
+    border-radius: 5px;
+    background-color: #75757530;
+    text-align: center;
+    border: 2px solid #DEDBDB;
+}
+
+.pass {
+    border: 2px solid #DEDBDB;
+    border-radius: 5px;
+    background-color: #75757530;
+    text-align: center;
+}
+
+.qr {
+    font-family: sans-serif;
+    color: #000000A3;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #F69E86;
+    font-family: sans-serif;
+    border: 2px solid white;
+    color: white;
+}
+
+button:hover {
+    background-color: #F0400F;
+    color: black;
+}
